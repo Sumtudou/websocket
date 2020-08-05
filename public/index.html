@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="websocket">
+    <div class="receive">
+      <h2>Message returned by the server</h2>
+      <div id="receive-box"></div>
+    </div>
+    <div class="send">
+      <textarea style="font-size: 20px;" type="text" id="msg-need-send"></textarea>
+      <p>
+        <button id="send-btn">send to server</button>
+      </p>
+    </div>
+    <button id="exit">close connection</button>
+  </div>
+</body>
+</html>
+<script src="./websocket.js"></script>
